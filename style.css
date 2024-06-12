@@ -1,0 +1,92 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: white;
+    color: #333;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.faq {
+    padding-top: 130px;
+}
+
+.testimonial-intro {
+    padding-top: 60px;
+}
+
+.tf {
+    color: #1a1a8c;
+}
+
+#question {
+    font-weight: 1000;
+}
+
+.card {
+    color: white;
+}
+
+.ash {
+    color: #666;
+}
+.testimonials, .cards {
+    width: 45%;
+    display: flex;
+  flex-direction: column;
+}
+
+h2 {
+    color: #1a1a8c;
+}
+
+
+.testimonial-card {
+    display: flex;
+    align-items: center;
+    background-color: #1a1a8c;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.testimonial-card img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.testimonial-content h3 {
+    margin: 0;
+}
+
+.faq-item {
+    background-color: #1a1a8c;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.faq-item h3 {
+    margin: 0;
+}
+
+.faq-item p {
+    margin: 10px 0 0 0;
+}
+
+.faq-item .plus {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 20px;
+    color: #fff;
+}
